@@ -18,7 +18,7 @@ const crypto = require("node:crypto");
 const PORT = Number(process.env.PORT) || 3000;
 const HOST = process.env.HOST || "0.0.0.0";
 const ROOT = __dirname;
-const DATA_DIR = path.join(ROOT, "data");
+const DATA_DIR = process.env.VERCEL ? "/tmp" : path.join(ROOT, "data");
 const USERS_FILE = path.join(DATA_DIR, "users.json");
 const SECRET_FILE = path.join(DATA_DIR, ".session-secret");
 
