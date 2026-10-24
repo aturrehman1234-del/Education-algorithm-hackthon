@@ -1,0 +1,25 @@
+{
+  "name": "skillbridge-ai",
+  "version": "1.0.0",
+  "description": "SkillBridge AI with sakura neon login/signup and local Node auth",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "auth",
+    "login",
+    "signup",
+    "sakura",
+    "cherry-blossom",
+    "threejs",
+    "canvas",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
